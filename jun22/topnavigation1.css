@@ -1,0 +1,43 @@
+#mainheader{
+    position: fixed;
+    top: 0%;
+    left: 0;
+    width: 100%;
+}
+.mainnav{
+    padding: 10px;
+    background-color: rgb(118, 212, 24);
+    height: 100px;
+}
+.logo{
+    width: 15%;
+    text-align: center;
+    color: aliceblue;
+    float: left;
+    padding: 25px;
+}
+.menu{
+    padding-right: 25px;
+    float:right;
+}
+.mainwrap{ 
+    width: 85px;
+}
+li{
+    display: inline-block;
+    margin-left: 8px;
+    line-height: 100px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.maincontent{
+    padding-top: 100px;
+    color:rgb(68, 25, 187);
+    text-align: center;
+}
+#home{
+    height: 150vh;
+    background-color: rgb(219, 57, 127);
+}

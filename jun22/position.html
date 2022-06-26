@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            list-style: none;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            width: 200px;
+            height: 200px;
+            border: 1px solid;
+            margin-top: 2px;
+        }
+        .static{
+            position: relative;
+            left: 200px;
+        }
+        .relative{
+            position: relative;
+            left: 1000px;
+            right: 10px;
+            top: 50px;
+        }
+        .absoloute{
+            position: absolute;
+            left: 1000px;
+            top: 50px;
+        }
+        .fixed{
+            position: fixed;
+            right: 80px;
+        }
+        .stacky{
+            position: sticky;
+            top: 150px;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="static">static</li>
+        <li class="relative">relative</li>
+        <li class="absolute">absolute</li>
+        <li class="fixed">fixed</li>
+        <li class="stacky">stacky</li>
+    </ul>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+</body>
+</html>

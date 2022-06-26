@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            width: 400px;
+            border: 1px solid;
+            padding: 10px;
+        }
+        p::first-line{
+            color: blue;
+            font: weight 90px;
+        }
+        p::first-letter{
+            font-size: 40px;
+            background-color: palegreen;
+        }
+        p::selection{
+            background-color: darkcyan;
+            color: salmon;
+        }
+        .heading{
+            text-align: center;
+           /* text-decoration:underline;*/
+            border-bottom: 2px solid;
+            margin: auto;
+            width: 200px;
+        }
+        .heading::before {
+            content:"";
+            position: absolute;
+            width:40px;
+            height: 3px;
+            background-color: purple;
+            left: 25%;
+        }
+        .heading::after {
+            content:"";
+            position: absolute;
+            width:40px;
+            height: 3px;
+            background-color: purple;
+            right: 25%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <p>The New Zealand national cricket team represents New Zealand in men's international cricket. 
+        Named the Black Caps, they played their first Test in 1930 against England in Christchurch,</p>
+        <div class="heading">
+            heading
+        </div>
+</body>
+</html>

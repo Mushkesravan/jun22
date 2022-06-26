@@ -1,0 +1,17 @@
+#one{
+    background-color: orange;
+    width: 100%;
+}
+.red{
+    color: blue;
+    background-color:blueviolet;
+    width: 500px;
+}
+.bgcolor{
+    background-color: black;   
+}
+div{
+    border: 1px solid green;
+    width: 100%;
+    background-color: khaki;
+}

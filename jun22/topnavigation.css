@@ -1,0 +1,36 @@
+#mianheader{
+    padding: 3px;
+    top: 0%;
+    left: 0;
+    width: 100%;
+}
+.mainnav{
+    padding: 10px;
+    background-color: rgb(118, 212, 24)
+
+}
+.logo{
+    width: 15%;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 25px;
+    float: left;
+}
+.menu{
+    padding-right: 25px;
+    float:right;
+}
+li{
+    display: inline-block;
+    margin-left: 8px;
+    line-height: 100px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#home{
+    height: 150vh;
+    background-color: rgb(183, 183, 219);
+    color: blueviolet;
+}
