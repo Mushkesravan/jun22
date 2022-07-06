@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+/*      head   */
+body{
+    background-color: black;
+}
+.head{
+    background-color: black;
+    color: azure;
+    display: flex; 
+    padding: 20px;
+    justify-content: center;
+    gap: 300px;
+}
+#parent{
+    display: flex;
+    width: 98%;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: aliceblue;
+    gap: 20px;
+    position: fixed;
+    font-weight: 600;
+    color: rgb(121, 119, 117);
+}
+#parent:hover{
+    color: black;
+}
+#child{
+    color: rgb(12, 13, 13);
+    margin-right: 700px;
+    font-size: 20px;
+
+}
+.mainimage{
+    background-image: url(../images/image.web1.jpg);
+    height: 70vh;
+    margin: 60px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#para{
+    font-size: 40px;
+    width: 350px;
+    padding: 50px;
+    margin: 60px auto;
+    color: white;
+    font-weight: 500;
+}
+.get{
+    color: rgb(72, 83, 93);
+    border: 1px solid;
+    width: 120px;
+    padding: 20px;
+    margin: 70px auto;
+}
+.get:hover{
+    background-color: aqua;
+    color: black;
+    border-color:aqua ;
+}
+strong{
+    color: aqua;
+}
+.we{
+    text-align: center;
+    top: 120px;  
+    height: 30vh; 
+    color: aliceblue;  
+}
+.resp{
+    color: aqua;
+    display: flex;
+    gap: 20%;
+    left: 210px;
+}
+.resp i{
+    border: 1px solid;
+    color: aliceblue;
+}
+.text{
+    color:white;
+    display: flex;
+    left: px;
+    top: 30px;
+    text-align:start;
+    gap: 10%;
+}
+#awes{
+    color: aliceblue;
+    text-align: center;
+    top: 100px;
+    font-size: 30px;
+}
+img{
+    width: 300px;
+    padding: 20px;
+    margin-left: 25px;
+}   
+#TRACY{
+    color: aliceblue;
+    width: 300px;
+    height: 40vh;
+    left: 130px;
+}
+.our{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+.des{
+    display: flex;
+    gap: 50px;
+    padding: 90px;
+    left: 25px;
+    color: rgb(156, 185, 209);
+    text-align: start;
+}  
+#port{
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+.cont{
+    top: 180px;
+    width: 100%;
+}
+.name{
+    display: flex;
+    left: 500px;
+    top: 180px;
+}
+.maincont{
+    display: flex;
+    top: 250px;
+    width: 60%;
+    text-align: justify;
+    font-weight: 500;
+    margin: 100px auto;
+}
+input{
+    width: 85%;
+    padding: 8px;
+    background-color: black;
+    border-color: aqua;
+}
+textarea{
+    width: 82%;
+    padding: 15px;
+    background-color: black;
+    border-color: aqua;
+}
+button{
+    width: 90%;
+    padding: 15px;
+    background-color:aqua;
+    color: aliceblue;
+    font-size: 15px;
+}
+.right{
+    padding: 15px;
+    font-size: 20px;
+}
+.left{
+    padding: 10px;
+    display:inline;
+}
+.des i{
+    padding: 25px;
+    border: 1px solid;
+    color: aliceblue;
+}
+p i{
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+}
